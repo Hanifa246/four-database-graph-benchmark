@@ -1,0 +1,2 @@
+Database,Workload,Runs,Average_ms,Min_ms,Max_ms,P50_ms,P95_ms
+FalkorDB,Indexed_Point_Lookup,100,1.8424,0.7934,3.2203,1.9901,2.6438

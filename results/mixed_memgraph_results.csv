@@ -1,0 +1,4 @@
+Database,Concurrency,Duration_s,Read_Ratio,Write_Ratio,Reads,Writes,Total_Operations,Errors,Operations_per_second
+Memgraph,1,30.02,0.8,0.19999999999999996,144,36,180,0,6.0
+Memgraph,10,30.08,0.8,0.19999999999999996,1418,329,1747,0,58.08
+Memgraph,40,30.16,0.8,0.19999999999999996,5564,1382,6946,2,230.27

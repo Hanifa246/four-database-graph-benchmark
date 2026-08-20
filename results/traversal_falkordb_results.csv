@@ -1,0 +1,4 @@
+Database,Workload,Runs,Average_ms,Min_ms,Max_ms,P50_ms,P95_ms
+FalkorDB,1-hop,100,4.5598,2.4175,7.4055,4.7606,6.5693
+FalkorDB,2-hop,100,7.8119,4.6144,14.8299,7.7279,11.47
+FalkorDB,3-hop,100,33.5168,17.9211,48.4344,33.7526,43.4674

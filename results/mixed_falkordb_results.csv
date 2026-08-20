@@ -1,0 +1,4 @@
+Database,Concurrency,Duration_s,Read_Ratio,Write_Ratio,Reads,Writes,Total_Operations,Errors,Operations_per_second
+FalkorDB,1,30.0,0.8,0.2,11788,2963,14751,0,491.63
+FalkorDB,10,30.05,0.8,0.2,36982,9371,46353,0,1542.55
+FalkorDB,40,30.47,0.8,0.2,36545,8989,45534,0,1494.16

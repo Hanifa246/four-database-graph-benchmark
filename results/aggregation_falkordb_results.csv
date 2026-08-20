@@ -1,0 +1,2 @@
+Database,Workload,Runs,Average_ms,Min_ms,Max_ms,P50_ms,P95_ms
+FalkorDB,Node_Count_Aggregation,100,1.4117,0.8884,2.2165,1.4251,1.9705

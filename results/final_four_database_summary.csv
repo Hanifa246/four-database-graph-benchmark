@@ -1,0 +1,6 @@
+Workload,Fastest_Database,Fastest_Average_ms,Slowest_Database,Slowest_Average_ms,Performance_Gap_x
+Node_Count_Aggregation,FalkorDB,1.4117,CognoDB,318.7062,225.76
+Indexed_Point_Lookup,FalkorDB,1.8424,CognoDB,308.7935,167.6
+1-Hop,FalkorDB,4.5598,CognoDB,324.8248,71.24
+2-Hop,FalkorDB,7.8119,CognoDB,320.9539,41.09
+3-Hop,FalkorDB,33.5168,CognoDB,315.5224,9.41

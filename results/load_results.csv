@@ -1,0 +1,3 @@
+Database,Nodes,Relationships,Load_Time_s,Nodes_per_second,Relationships_per_second
+CognoDB,169870,100000,45.4532,3737.25,2200.06
+Neo4j_Aura,169870,100000,16.989,9998.8,5886.15

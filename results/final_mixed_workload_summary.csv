@@ -1,0 +1,4 @@
+Concurrency,Highest_Throughput_Database,Highest_Throughput_ops_s,Lowest_Throughput_Database,Lowest_Throughput_ops_s
+1.0,FalkorDB,491.63,CognoDB,3.11
+10.0,FalkorDB,1542.55,CognoDB,22.13
+40.0,FalkorDB,1494.16,CognoDB,15.07

@@ -1,0 +1,7 @@
+Query,Neo4j_Average_ms,Memgraph_Average_ms,CognoDB_Average_ms,Fastest_Database
+Node_Count,10.4,250.51,369.44,Neo4j
+Relationship_Count,11.16,252.52,399.21,Neo4j
+One_Hop,17.17,214.87,442.56,Neo4j
+Two_Hop,19.09,225.67,444.48,Neo4j
+Three_Hop,19.29,230.3,398.48,Neo4j
+Degree_Query,442.98,600.75,2030.74,Neo4j

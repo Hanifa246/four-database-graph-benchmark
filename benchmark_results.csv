@@ -1,0 +1,6 @@
+Query,Runs,Average_ms,Minimum_ms,Maximum_ms,Median_ms
+Q1_Count_Users,10,8.7,7.71,10.13,8.56
+Q2_Count_Relationships,10,9.0,8.06,10.47,8.68
+Q3_One_Hop,10,18.12,15.8,22.09,17.55
+Q4_Two_Hop,10,20.06,16.88,23.74,19.65
+Q5_Three_Hop,10,27.04,20.5,51.12,24.05

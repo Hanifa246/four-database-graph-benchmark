@@ -1,0 +1,4 @@
+Database,Overall_Average_ms
+Neo4j,86.68166666666667
+Memgraph,295.77
+CognoDB,680.8183333333333

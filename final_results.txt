@@ -1,0 +1,106 @@
+NEO4J VS COGNODB GRAPH DATABASE BENCHMARK
+
+1. Dataset
+
+The benchmark was performed using a graph dataset containing:
+- 100,000 relationships
+- 169,870 unique nodes
+- 90,922 unique source nodes
+- 91,094 unique target nodes
+
+2. Benchmark Methodology
+
+Six graph queries were evaluated:
+1. Node Count
+2. Relationship Count
+3. One-Hop Traversal
+4. Two-Hop Traversal
+5. Three-Hop Traversal
+6. Degree Query
+
+Each query was executed 20 times, and average, minimum, maximum, and median execution times were recorded.
+
+3. Neo4j Results
+
+Node Count:
+Average: 10.40 ms
+Median: 8.87 ms
+Minimum: 7.91 ms
+Maximum: 41.79 ms
+
+Relationship Count:
+Average: 11.16 ms
+Median: 9.19 ms
+Minimum: 8.05 ms
+Maximum: 47.36 ms
+
+One-Hop:
+Average: 17.17 ms
+Median: 17.03 ms
+Minimum: 14.06 ms
+Maximum: 20.70 ms
+
+Two-Hop:
+Average: 19.09 ms
+Median: 18.98 ms
+Minimum: 15.98 ms
+Maximum: 21.75 ms
+
+Three-Hop:
+Average: 19.29 ms
+Median: 19.24 ms
+Minimum: 13.21 ms
+Maximum: 23.04 ms
+
+Degree Query:
+Average: 442.98 ms
+Median: 376.27 ms
+Minimum: 287.72 ms
+Maximum: 907.26 ms
+
+4. Neo4j vs CognoDB
+
+Node Count:
+Neo4j = 10.40 ms
+CognoDB = 369.44 ms
+CognoDB slowdown = 35.52x
+
+Relationship Count:
+Neo4j = 11.16 ms
+CognoDB = 399.21 ms
+CognoDB slowdown = 35.77x
+
+One-Hop:
+Neo4j = 17.17 ms
+CognoDB = 442.56 ms
+CognoDB slowdown = 25.78x
+
+Two-Hop:
+Neo4j = 19.09 ms
+CognoDB = 444.48 ms
+CognoDB slowdown = 23.28x
+
+Three-Hop:
+Neo4j = 19.29 ms
+CognoDB = 398.48 ms
+CognoDB slowdown = 20.66x
+
+Degree Query:
+Neo4j = 442.98 ms
+CognoDB = 2030.74 ms
+CognoDB slowdown = 4.58x
+
+5. Overall Results
+
+Average Neo4j execution time: 86.68 ms
+Average CognoDB execution time: 680.82 ms
+Average CognoDB slowdown: 24.27x
+Overall Neo4j improvement: 87.27%
+
+6. Conclusion
+
+Under the tested experimental conditions, Neo4j demonstrated lower query execution times than CognoDB across all evaluated workloads.
+
+Neo4j achieved an average execution time of 86.68 ms, while CognoDB required 680.82 ms on average. This represents an 87.27% reduction in average execution time.
+
+Neo4j showed the largest performance advantages for node and relationship counting queries, while the advantage was smaller for the degree query. Overall, the benchmark demonstrates that Neo4j provided better query execution performance for the tested graph workloads.

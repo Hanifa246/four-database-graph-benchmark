@@ -1,0 +1,2 @@
+Database,Workload,Runs,Average_ms,Min_ms,Max_ms,P50_ms,P95_ms
+Memgraph,Node_Count_Aggregation,100,198.7517,192.819,211.1932,198.9917,203.7323

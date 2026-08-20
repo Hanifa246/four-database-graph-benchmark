@@ -1,0 +1,3 @@
+Database,Workload,Runs,Average_ms,Min_ms,Max_ms,P50_ms,P95_ms
+CognoDB,Indexed_Point_Lookup,100,308.7935,273.7831,406.7317,315.5551,362.2945
+Neo4j_Aura,Indexed_Point_Lookup,100,76.7491,70.5909,105.6579,75.4845,82.9867

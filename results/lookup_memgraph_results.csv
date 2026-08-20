@@ -1,0 +1,2 @@
+Database,Workload,Runs,Average_ms,Min_ms,Max_ms,P50_ms,P95_ms
+Memgraph,Indexed_Point_Lookup,100,165.71,158.8303,190.2958,164.3246,176.5003

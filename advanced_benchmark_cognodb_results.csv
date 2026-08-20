@@ -1,0 +1,7 @@
+Query,Runs,Average_ms,Minimum_ms,Maximum_ms,Median_ms
+Node_Count,20,369.44,292.04,544.21,387.99
+Relationship_Count,20,399.21,294.91,622.23,358.2
+One_Hop,20,442.56,298.36,784.38,410.84
+Two_Hop,20,444.48,311.68,623.79,409.32
+Three_Hop,20,398.48,308.63,609.53,347.35
+Degree_Query,20,2030.74,1780.1,2449.41,2002.69
