@@ -1,0 +1,7 @@
+Database,Query,Runs,Average_ms,Minimum_ms,Maximum_ms,Median_ms,P95_ms
+ArangoDB,Node_Count,100,64.5845,58.8156,85.6189,63.3397,72.9163
+ArangoDB,Relationship_Count,100,54.2713,51.0057,60.7268,53.959,58.6215
+ArangoDB,Indexed_Lookup,100,3.0577,1.9311,5.3244,2.8945,4.5414
+ArangoDB,One_Hop,100,46.7648,43.2507,49.0612,47.467,48.762
+ArangoDB,Two_Hop,100,46.3274,43.0116,51.8651,47.0127,48.7773
+ArangoDB,Three_Hop,100,46.4933,43.055,63.9874,46.7905,48.6026

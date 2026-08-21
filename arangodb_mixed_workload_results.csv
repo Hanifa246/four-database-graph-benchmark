@@ -1,0 +1,4 @@
+Database,Concurrency,Duration_seconds,Operations,Throughput_ops_sec,Read_Percentage,Write_Percentage
+ArangoDB,1,30.02,804,26.78,80,20
+ArangoDB,10,30.04,7701,256.36,80,20
+ArangoDB,40,30.06,17814,592.68,80,20
